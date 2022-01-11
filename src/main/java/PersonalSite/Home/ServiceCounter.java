@@ -1,15 +1,15 @@
-package Services;
-
+package PersonalSite.Home;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.JSONObject;
 import java.io.FileWriter;
 
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
- public class UpdateCounter {
+
+ public class ServiceCounter {
     private static FileWriter file;
 
      public int newjsonfile(){
@@ -34,7 +34,7 @@ import java.io.FileWriter;
 
         } catch(Exception ex)
         {
-            System.out.println("IOException is caught " + ex);
+            System.out.println("IOException is caught in ServiceCounter's newjsonfile(): " + ex);
         }
         return success;
     }
@@ -75,14 +75,12 @@ import java.io.FileWriter;
              file.flush();
              file.close();
 
-            System.out.println("Number of views: " + counter);
-
             return counter;
             
 
         } catch(Exception ex)
         {
-            System.out.println("IOException is caught " + ex);
+            System.out.println("IOException is caught in ServiceCounter's _updatecntr(): " + ex);
         }
 
         return -1;

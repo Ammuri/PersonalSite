@@ -1,6 +1,6 @@
-package Model;
+package PersonalSite.Model;
 
-public class Counter {
+public class ModelCounter {
     private int counter;
 
     public int getCounter() {
@@ -11,10 +11,10 @@ public class Counter {
         this.counter = counter;
     }
 
-    public Counter(int counter){
+    public ModelCounter(int counter){
         this.counter = counter;
     }
     
-    public Counter(){
+    public ModelCounter(){
     }
 }
