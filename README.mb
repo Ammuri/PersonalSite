@@ -1,0 +1,7 @@
+## :raised_hand_with_fingers_splayed:Personal Website
+
+Written in JAVA using Spring Boot. Running on an embedded tomcat server. 
+
+Servers as a phising site when employers attempt to check out my site. Primary goal: Gentle reminder to not click on untrusted links :bone:
+
+![Funny meme found on my site when visited](https://www.memecreator.org/static/images/memes/3871073.jpg)
