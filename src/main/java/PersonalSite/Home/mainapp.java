@@ -38,6 +38,11 @@ public class mainapp {
         return "views_counter";
     }
 
+	@GetMapping(value="/resume")
+	public String AboutAction(){
+		return "resume";
+	}
+
 	@GetMapping(value="/error")
 	public String ErrorAction(){
 		return "error";
