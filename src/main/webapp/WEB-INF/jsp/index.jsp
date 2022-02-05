@@ -16,8 +16,9 @@
         <br>
     </div>
     <div class="container border border-4 rounded-3" style="background-color:	#F5F5F5">
-        <p style="color:black;font-size:large;text-align: center;">Careful! You just clicked on an untrusted link! I don't mean to scare you, my website serves as a gentle reminder to not click on untrusted links.</p>
-        <p style="color:black;font-size:large;text-align:center;">Since you are already here, please feel free to check out my resume by clicking on the "Resume" button at the top.</p>
+        <p style="color:black;font-size:large;text-align: center;">Careful! You just clicked on an untrusted phishing link! I don't mean to scare you, my website serves as a gentle reminder to not click on untrusted links.</p>
+        <p style="color:black;font-size:large;text-align: center;">Here's what could have happened if this were truly a malicious phishing site: downloaded virus/malware, entered sensitive information that could be stolen, and have your cookies (browser cached data) stolen - depending on the type and version of your browser.</p>
+        <p style="color:black;font-size:large;text-align:center;">Since you are already here, please feel free to check out my resume by clicking on "Resume" at the top.</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
