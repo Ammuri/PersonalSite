@@ -15,7 +15,7 @@ import org.json.simple.parser.JSONParser;
      public int newjsonfile(){
 
         int success = 0;
-        File filename = new File("src\\main\\resources\\CounterData.JSON");
+        File filename = new File("src/main/resources/CounterData.JSON");
         JSONObject CounterData = new JSONObject();
 
         CounterData.put("counter", 0);
@@ -41,7 +41,7 @@ import org.json.simple.parser.JSONParser;
 
     public long _updatecntr(){
 
-        File filename = new File("src\\main\\resources\\CounterData.JSON");
+        File filename = new File("src/main/resources/CounterData.JSON");
         
         JSONParser parser  = new JSONParser();
         

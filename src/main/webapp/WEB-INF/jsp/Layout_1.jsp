@@ -11,8 +11,8 @@
 
   <body>
     <nav class="navbar navbar-light navbar-expand-lg">
-        <div class="container-fluid" style="background-color: #dfc7f5;">
-          <a class="navbar-brand" href="#">SpringAbdelati</a>
+        <div class="container-fluid" style="background-color: #99ccff;">
+          <a class="navbar-brand" style="text-decoration-color: #808080">Omar Abdelati</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #ffffff;">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,9 +23,6 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/resume">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/views">Views</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

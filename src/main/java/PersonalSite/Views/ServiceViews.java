@@ -7,7 +7,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.JSONObject;
 
 public class ServiceViews {
-    File filename = new File("src\\main\\resources\\CounterData.JSON");
+    File filename = new File("src/main/resources/CounterData.JSON");
     JSONParser parser  = new JSONParser();
     
     public long GetViews(){

@@ -15,14 +15,13 @@ import PersonalSite.Views.ServiceViews;
 @Controller
 @RequestMapping("/")
 public class mainapp {
-
 	public static void main(String[] args) {
 		SpringApplication Application = new SpringApplication(mainapp.class);
 		Application.setBannerMode(Banner.Mode.OFF);
 		Application.run(args);
 	}
 
-	@GetMapping
+	@GetMapping(value="/")
 	public String getindex(Model model){
 		ServiceCounter UC = new ServiceCounter();	
 		if(UC._updatecntr() == -1){
@@ -39,7 +38,7 @@ public class mainapp {
     }
 
 	@GetMapping(value="/resume")
-	public String AboutAction(){
+	public String ResumeAction(){
 		return "resume";
 	}
 
