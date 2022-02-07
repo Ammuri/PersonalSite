@@ -25,7 +25,8 @@ public class mainapp {
 	public String getindex(Model model){
 		ServiceCounter UC = new ServiceCounter();	
 		if(UC._updatecntr() == -1){
-			return "error";
+			//Log then return index
+			return "index";
 		}
 		return "index";
 	}
