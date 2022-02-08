@@ -9,7 +9,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import PersonalSite.Views.ServiceViews;
+import PersonalSite.Service.ServiceCounter;
+import PersonalSite.Service.ServiceViews;
 
 @SpringBootApplication(scanBasePackages = "com.baeldung.boot.jsp")
 @Controller
