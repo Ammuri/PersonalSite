@@ -56,21 +56,40 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
           <p class="w3-large"><b><i class="fas fa-book fa-fw w3-margin-right" style="color:#667799;"></i>Skills</b></p>
           <ul class="basic">
-            <li>Secure Programming</li>
+            <li>AWS</li>
+            <ul>
+              <li>IAM</li>
+              <li>CloudTrail</li>
+              <li>CloudWatch</li>
+              <li>Guard Duty</li>
+              <li>Lambda</li>
+            </ul>
+            <li>Splunk</li>
+            <li>Nessus</li>
             <li>Cryptography</li>
-            <li>Reverse Engineering - IDA Pro, CFF Explorer</li>
-            <li>AWS - IAM</li>
-            <li>.NET Framework</li>
+            <li>Reverse Engineering</li>
+            <ul>
+              <li>IDA Pro</li>
+              <li>CFF Explorer</li>
+            </ul>
+            <li>ASP.NET Framework</li>
             <li>Metasploit</li>
+            <ul>
+              <li>NMAP</li>
+              <li>Meterpreter</li>
+              <li>mimikatz</li>
+              <li>Burp Suite</li>
+            </ul>
           </ul>
           <hr>
 
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right" style="color:#667799;"></i>Languages</b></p>
           <ul class="basic">
             <li>C</li>
-            <li>C++</li>
-            <li>Python</li>
+            <li>C#</li>
             <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
             <li>x86</li>
             <li>PowerShell Scripting</li>
             <li>Bash Scripting</li>
@@ -123,7 +142,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <h7 style="color:#667799;"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2021</h7>
           <ul>
             <li><b>Relevant coursework: </b>Secure Programming, Cloud Security and Reverse Software Engineering</li>
-            <li><b>Projects: </b>Exploiting and Patching Webserver, Secure Code Reviewing, and Reverse Engineering</li>
+            <li><b>Projects: </b>Exploiting and Patching Webserver (C), Secure Code Reviewing (C# ASP.NET), Reverse Engineering with IDA Pro (C), AWS IAM management, PenTesting CTF</li>
           </ul>
           <hr>
        </div>
@@ -132,8 +151,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <h6 class="w3-text-grey"><b><u>Bachelor of Science in Computer Engineering, Minor in CyberSecurity</u></b></h6>
           <h7 style="color:#667799;"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2020</h7>
           <ul>
-            <li><b>Relevant coursework: </b>Computer Organization and Design, Software Security</li>
-            <li><b>Projects: </b>Programming MIPS CPU on FPGA, Cryptography, Computer Networks</li>
+            <li><b>Relevant coursework: </b>Computer Networks, Cryptography, Programming</li>
+            <li><b>Projects: </b>Cryptography in programming, Operating System Drivers, Patching webserver</li>
           </ul>
         </div>
       </div>
@@ -172,6 +191,42 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <li>Performed pentesting on a simulated business with initial access to the network</li>
             <li>Infiltrated two key computers in the network and captured flags to earn highest grade</li>
             <li>Security tools used include, but are not limited to, email phishing, Nmap, Metasploit, and Meterpreter</li>
+          </ul>
+          <hr>
+        </div>
+        <!--START HERE-->
+        <div class="w3-container">
+          <h5 class="w3-text-black"><b>Secure MVC C# Webserver</b></h5>
+          <h6 class="w3-text-grey"><i>Secure Coding </i>| University of Maryland, College Park, PA</h6>
+          <h7 style="color:#667799;"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2021 - Dec 2021</h7>
+          <ul>
+            <li>Programmed a webserver using ASP.NET framework and C# for class</li>
+            <li>Added the following security features: database for sensitive information, email authentication, roles, authorizations, cryptography, session management</li>
+            <li>Ran static and dynamic analysis to identify weaknesses according to MITRE common weakness enumeration (CWE)</li>
+          </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-text-black"><b>Secure MVC C# Webserver</b></h5>
+          <h6 class="w3-text-grey"><i>Secure Coding </i>| University of Maryland, College Park, PA</h6>
+          <h7 style="color:#667799;"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2021 - Dec 2021</h7>
+          <ul>
+            <li>Performed a MITRE standard code review using a CWE format</li>
+            <li>Discovered a list of weaknesses (CWE) and tagged potential vulnerabilities (CVE) ranked by criticality</li>
+            <li>Proposed possible mitigations to each weakness found</li>
+            <li>Added suggestions to help remedy and patch the weakness</li>
+          </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-text-black"><b>Monitoring Security Events on AWS</b></h5>
+          <h6 class="w3-text-grey"><i>Cloud Security </i>| University of Maryland, College Park, PA</h6>
+          <h7 style="color:#667799;"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2020 - Dec 2020</h7>
+          <ul>
+            <li>Implemented a logging system using CloudTrail for monitoring and forensics</li>
+            <li>Created a CloudWatch Log group that serves as a delivery endpoint for logging events</li>
+            <li>Implemented a CloudWatch metric filter for S3 storage with alarm</li>
+            <li>Monitored the security groups with AWS config - using AWS lambda</li>
           </ul>
           <br>
         </div>
